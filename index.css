@@ -1,6 +1,7 @@
 html{
     background-color: rgb(93, 93, 93);
     overflow-y: hidden;
+    touch-action: manipulation;
 }
 img{
     position: fixed;
