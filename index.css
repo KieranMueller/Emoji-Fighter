@@ -1,0 +1,67 @@
+html{
+    background-color: rgb(93, 93, 93);
+    overflow-y: hidden;
+}
+img{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    z-index: -5;
+    opacity: .1;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+div{
+    text-align: center;
+    font-size: 120px;
+    margin: 0 20px;
+}
+.godContainer{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+}
+.versus{
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    height: 80px;
+    width: 240px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:chocolate;
+    opacity: .7;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+    scale:1.05;
+}
+.buttonDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.winner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.black{
+    background-color: black;
+}
