@@ -25,6 +25,7 @@ fightButton.addEventListener("click",function() {
 }
 )
 fight.addEventListener("click", function(){
+    randomWinner = Math.floor(Math.random()*2);
     if(randomIndexOne === randomIndexTwo){
         tie.textContent = "Tie!";
         return;
